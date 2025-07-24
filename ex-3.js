@@ -33,3 +33,9 @@ let getJohnOrders = () => {
 };
 
 // Start coding here
+function onSucess(data){
+  console.log(data)
+}
+
+getJohnProfile().then(onSucess)
+getJohnOrders().then(onSucess)
