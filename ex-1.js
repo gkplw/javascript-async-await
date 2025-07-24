@@ -18,3 +18,8 @@ getJohnProfile()
   .then(profile => {
     console.log(profile);
   });
+
+// function getJohn(data){
+//   console.log(data);
+// }
+// getJohnProfile().then(getJohn);
