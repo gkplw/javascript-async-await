@@ -37,5 +37,4 @@ function onSucess(data){
   console.log(data)
 }
 
-getJohnProfile().then(onSucess)
-getJohnOrders().then(onSucess)
+getJohnProfile().then(onSucess).then(getJohnOrders).then(onSucess)

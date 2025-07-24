@@ -18,4 +18,8 @@ function onSucess (data) {
   console.log(data)
 }
 
-getJohnProfile().then(onSucess)
+function onFailure (error) {
+  console.log(error)
+}
+
+getJohnProfile().then(onSucess).catch(onFailure)
