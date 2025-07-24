@@ -18,8 +18,7 @@ async function getJohnData() {
     const onSucess = await getJohnProfile()
     console.log(onSucess)
   } catch(error){
-    const onFailure = await getJohnProfile()
-    console.log(onFailure)
+    console.log(error)
   }
 }
 
