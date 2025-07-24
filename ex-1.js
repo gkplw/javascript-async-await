@@ -14,3 +14,12 @@ let getJohnProfile = () => {
   });
 };
 // Start coding here
+getJohnProfile()
+  .then(profile => {
+    console.log(profile);
+  });
+
+// function getJohn(data){
+//   console.log(data);
+// }
+// getJohnProfile().then(getJohn);
